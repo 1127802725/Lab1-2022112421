@@ -208,7 +208,7 @@ def main():
                 w1, w2 = input_line
                 print(tg.calcShortestPath(w1, w2))
             else:
-                print("Please enter one or two words only.")
+                print("Please enter one or two words only.") 
         elif choice == '5':
             word = input("Enter word to calculate PageRank: ")
             print(f"PageRank of '{word}' is {tg.calPageRank(word):.4f}")
